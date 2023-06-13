@@ -185,6 +185,11 @@ p, h1, h2, h3, h4, h5, h6 {
 .attribution { font-size: 11px; text-align: center;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
 /* hanken-grotesk-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -227,7 +232,7 @@ p, h1, h2, h3, h4, h5, h6 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 50vw;
-    height: 45vh;
+    height: 50vh;
     -webkit-box-shadow: -3px 11px 40px 13px rgba(0,0,0,0.23);
     -moz-box-shadow: -3px 11px 40px 13px rgba(0,0,0,0.23);
     box-shadow: -3px 11px 40px 13px rgba(0,0,0,0.23);

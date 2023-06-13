@@ -1,0 +1,223 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+* {
+    margin: 0;
+  }
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+  }
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+input, button, textarea, select {
+    font: inherit;
+  }
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+.card {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50vw;
+    height: 45vh;
+    -webkit-box-shadow: -3px 11px 40px 13px rgba(0,0,0,0.23);
+    -moz-box-shadow: -3px 11px 40px 13px rgba(0,0,0,0.23);
+    box-shadow: -3px 11px 40px 13px rgba(0,0,0,0.23);
+    border-radius: 1rem;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(0deg, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+  border-radius: 1rem;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.result-heading {
+  color: hsl(241, 100%, 89%);
+  margin-top: 2rem;
+  margin-bottom: 1.4rem;
+  font-size: 1.2rem;
+}
+
+.result-desc {
+  color: hsl(241, 100%, 89%);
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.score {
+  background: linear-gradient(0deg, hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
+  width: 25%;
+  align-self: center;
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.score-sub {
+  color: hsl(241, 100%, 89%);
+}
+
+.result-head {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: .3rem;
+  font-size: 1.6rem;
+}
+
+.score-number {
+  font-size: 3rem;
+  color: hsl(0, 0%, 100%);
+  font-weight: 800;
+  display: block;
+}
+
+.summary {
+  flex-grow: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.summary-head {
+  margin-bottom: 1rem;
+  color: hsl(224, 30%, 27%);
+  font-size: 1.2rem;
+}
+
+.summary-subhead {
+  flex-grow: 2;
+}
+
+.item {
+  display: flex;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+}
+
+.item-score {
+  align-self: flex-end;
+  text-align: right;
+  flex-grow: 1;
+  margin-left: .2rem;
+}
+
+.icons {
+  margin-right: 0.5rem;
+}
+
+.sub-score {
+  color: hsl(224, 30%, 27%);
+  font-weight: 800;
+}
+
+.out-of-hundred {
+  color: hsla(224, 30%, 27%, 0.466);
+  font-weight: 800;
+}
+
+.continue-btn {
+  align-self: center;
+  text-decoration: none;
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  padding: 0.5rem 5rem;
+  border-radius: 3rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.continue-btn:hover {
+  background: linear-gradient(0deg, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+}
+
+.item-reaction {
+  background-color: hsla(0, 100%, 67%, 0.221);
+}
+
+.item-memory {
+  background-color: hsl(39, 100%, 56%, 0.221);
+}
+
+.item-verbal {
+  background-color: hsl(166, 100%, 37%, 0.221);
+}
+
+.item-visual {
+  background-color: hsl(234, 85%, 45%, 0.221);
+}
+
+.reaction {
+  color: hsl(0, 100%, 67%);
+}
+
+.memory {
+  color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+  color: hsl(166, 100%, 37%);
+}
+
+.visual {
+  color:  hsl(234, 85%, 45%);
+}
+
+.attribution { font-size: 11px; text-align: center;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* hanken-grotesk-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/hanken-grotesk-v8-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* hanken-grotesk-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/hanken-grotesk-v8-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* hanken-grotesk-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/hanken-grotesk-v8-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* hanken-grotesk-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/hanken-grotesk-v8-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}

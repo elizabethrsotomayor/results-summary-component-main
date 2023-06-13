@@ -1,3 +1,7 @@
+/************************/
+/* GENERAL STYLES */
+/************************/
+
 *, *::before, *::after {
     box-sizing: border-box;
   }
@@ -28,18 +32,6 @@ input, button, textarea, select {
 p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
   }
-
-.card {
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 50vw;
-    height: 45vh;
-    -webkit-box-shadow: -3px 11px 40px 13px rgba(0,0,0,0.23);
-    -moz-box-shadow: -3px 11px 40px 13px rgba(0,0,0,0.23);
-    box-shadow: -3px 11px 40px 13px rgba(0,0,0,0.23);
-    border-radius: 1rem;
-}
 
 .result {
   display: flex;
@@ -220,4 +212,35 @@ p, h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   font-weight: 800;
   src: url('../fonts/hanken-grotesk-v8-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/***************************/
+/* DESKTOP STYLES */
+/***************************/
+@media (min-width: 50em) {
+  .card {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50vw;
+    height: 45vh;
+    -webkit-box-shadow: -3px 11px 40px 13px rgba(0,0,0,0.23);
+    -moz-box-shadow: -3px 11px 40px 13px rgba(0,0,0,0.23);
+    box-shadow: -3px 11px 40px 13px rgba(0,0,0,0.23);
+    border-radius: 1rem;
+  }
+}
+
+/***************************/
+/* MOBILE STYLES */
+/***************************/
+@media (min-width: 23em) and (max-width: 50em) {
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .result-desc {
+    margin-bottom: 2rem;
+  }
 }

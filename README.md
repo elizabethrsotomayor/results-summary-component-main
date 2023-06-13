@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/elizabethrsotomayor/results-summary-component-main)
+- Live Site URL: [Results Summary Component](https://elizabethrsotomayor.github.io/results-summary-component-main/)
 
 ## My process
 
@@ -43,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-I completed this challenge as a way to get re-acquainted with HTML/CSS since I was without a computer for a while. I re-learned how to structure HTML markup and used CSS flexbox to complete this challenge. I built each side of the component separately, breaking each piece down to create a cohesive final product. I refreshed my memory about centering divs and centering the content inside of the div. The mobile version is not yet ready, but will be available in a future version.
+I completed this challenge as a way to get re-acquainted with HTML/CSS since I was without a computer for a while. I re-learned how to structure HTML markup and used CSS flexbox to complete this challenge. I built each side of the component separately, breaking each piece down to create a cohesive final product. I refreshed my memory about centering divs and centering the content inside of the div.
 
 ### Continued development
 

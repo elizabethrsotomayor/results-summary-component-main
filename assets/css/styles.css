@@ -232,7 +232,6 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 50vw;
-    height: 50vh;
     -webkit-box-shadow: -3px 11px 40px 13px rgba(0,0,0,0.23);
     -moz-box-shadow: -3px 11px 40px 13px rgba(0,0,0,0.23);
     box-shadow: -3px 11px 40px 13px rgba(0,0,0,0.23);

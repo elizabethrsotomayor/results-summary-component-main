@@ -33,6 +33,10 @@ p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
   }
 
+.hidden {
+  display: none;
+}
+
 .result {
   display: flex;
   flex-direction: column;
